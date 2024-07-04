@@ -25,6 +25,10 @@ cd azure-devops-backend
 npm install
 ```
 
+### Connect to Database
+
+- Create a schema for the databse
+- Update the username, password in the src/app.module.ts
 
 ### Running the Server
 
