@@ -10,11 +10,11 @@ import { UserModule } from './user/user.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'cobradatabase.mysql.database.azure.com',
       port: 3306,
-      username: 'db-user',
-      password: 'db-password',
-      database: 'db-database-name',
+      username: 'MadhanHR2003',
+      password: 'Shetty@2003',
+      database: 'cobradb',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
